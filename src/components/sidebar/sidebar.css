@@ -1,0 +1,25 @@
+.sidebar__container{
+    background: rgb(33, 30, 36);
+    width: 16rem;
+    height: calc(100vh - 60px); 
+}
+.sidebar__elements{
+    width: 100%;
+    margin: 12rem 0 12rem 0;
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+.sidebar__element{
+    background: linear-gradient(to right, #01140d, #271427, #0c0111);
+    padding: .4rem;
+    margin-left: 12rem;
+    padding: .8rem .8rem .8rem .8rem;
+    font-size: 1.2rem;
+    width: max-content;
+    border-radius: 50%;
+    
+}
+.sidebar__element:hover{
+    background: linear-gradient(to right, #dee4e2, #0c000c, #9b03e2);
+}
